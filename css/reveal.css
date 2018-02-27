@@ -8,7 +8,25 @@
 /*********************************************
  * RESET STYLES
  *********************************************/
-.reveal .slides .slide__header {
+.reveal .slides section {
+  color: #FFFFFF; }
+  .reveal .slides section h3 {
+    color: #1A9CB0; }
+
+.reveal .slides .slide1 {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(60%); }
+
+.reveal .slides .slide1__logo {
+  background: none;
+  box-shadow: none;
+  border: none;
+  width: 288px;
+  height: 108px; }
+
+.reveal .slides .slide1__header {
+  margin-top: 1em;
   color: #39C2D7; }
 
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
