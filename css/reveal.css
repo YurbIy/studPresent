@@ -322,15 +322,13 @@
 .reveal .slides .thanks {
   margin-top: 160px; }
 
-.reveal .slides .slide26 .slide26__container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center; }
+.reveal .slides .questions {
+  margin-top: 50px; }
+
+.reveal .slides .neuro {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; }
 
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,
@@ -536,7 +534,7 @@ body {
     cursor: pointer;
     color: currentColor;
     transform: scale(0.9999);
-    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
     z-index: 2;
     pointer-events: auto;
     font-size: inherit;
