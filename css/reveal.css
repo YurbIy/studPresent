@@ -315,6 +315,13 @@
         align-items: center;
     margin: 30px 20px; }
 
+.reveal .slides .slide8_1 .slide8_1__current {
+  width: 768px;
+  height: 480px; }
+
+.reveal .slides .slide21_1 .slide21_1__plans_img {
+  margin: 0; }
+
 .reveal .slides .subs {
   font-size: 27px;
   width: 185px; }
@@ -328,7 +335,11 @@
 .reveal .slides .neuro {
   display: block;
   margin: 0 auto;
-  margin-top: 20px; }
+  margin-top: 20px;
+  box-shadow: 5px 8px 50px black; }
+
+.reveal .slides .co-worker, .reveal .slides .img_box-shadow {
+  box-shadow: 5px 8px 50px black; }
 
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,
@@ -534,7 +545,7 @@ body {
     cursor: pointer;
     color: currentColor;
     transform: scale(0.9999);
-    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
     z-index: 2;
     pointer-events: auto;
     font-size: inherit;
