@@ -320,7 +320,9 @@
   height: 480px; }
 
 .reveal .slides .slide21_1 .slide21_1__plans_img {
-  margin: 0; }
+  margin: 0;
+  width: 730px;
+  height: 456px; }
 
 .reveal .slides .subs {
   font-size: 27px;
