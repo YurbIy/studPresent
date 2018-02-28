@@ -312,12 +312,12 @@
             .slide23__container {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
                 .team-img {
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     align-items: center;
                     margin: 50px 20px;
                 }
@@ -341,20 +341,36 @@
         }
 
             .slide25 {
-                .slide25__container {
+                 .slide25__container {
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     align-items: center;
+                     .team-img {
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-around;
+                         align-items: center;
+                         margin: 30px 20px;
+                     }
+                 }
+             }
+
+            .slide26 {
+                .slide26__container {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
                     align-items: center;
-                    .team-img {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        align-items: center;
-                        margin: 30px 20px;
-                    }
+                        .team-img {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            align-items: center;
+                            margin: 30px 20px;
                 }
             }
+        }
 
             .subs {
                 font-size: 27px;
