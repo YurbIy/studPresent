@@ -372,18 +372,18 @@
                  }
              }
 
-            .slide26 {
-                .slide26__container {
+        .slide26 {
+            .slide26__container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .team-img {
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
-                        .team-img {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-around;
-                            align-items: center;
-                            margin: 30px 20px;
+                    margin: 30px 20px;
                 }
             }
         }
@@ -397,13 +397,16 @@
                 margin-top: 160px;
             }
 
-            .slide26 {
-                .slide26__container {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                }
+            .questions {
+                margin-top: 50px;
             }
-        }
+
+            .neuro {
+                display: block;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+    }
+
+
 }
