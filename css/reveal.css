@@ -27,14 +27,11 @@
     position: absolute;
     left: -3%;
     bottom: 3%; }
-  .reveal .slides section .slide__container {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between; }
-    .reveal .slides section .slide__container .slide__plans_img {
-      width: 470px;
-      height: 376px; }
+  .reveal .slides section .slide__plans_img {
+    width: 470px;
+    height: 376px; }
+  .reveal .slides section .slide__future-head {
+    color: #A3C644; }
 
 .reveal .slides .slide1 {
   width: 100%;
@@ -180,9 +177,18 @@
   top: 58%;
   left: 69%; }
 
-.reveal .slides .slide17 .slide17__plans_img {
-  width: 512px;
-  height: 484px; }
+.reveal .slides .slide16 .slide16__container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .reveal .slides .slide16 .slide16__container .slide16__plans_img {
+    width: 512px;
+    height: 425px; }
 
 .reveal .slides .slide17 .slide17__container {
   display: -ms-flexbox;
@@ -193,6 +199,9 @@
       align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+  .reveal .slides .slide17 .slide17__container .slide17__plans_img {
+    width: 512px;
+    height: 484px; }
 
 .reveal .slides .slide18 .slide18__container {
   display: -ms-flexbox;
@@ -232,25 +241,19 @@
   width: 470px;
   height: 376px; }
 
-.reveal .slides .slide23 .slide23__container {
+.reveal .slides .slide23 .slide23__container .team-img {
+  float: left;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  box-shadow: none;
+  border: none;
+  background: none;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center; }
-  .reveal .slides .slide23 .slide23__container .team-img {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    -ms-flex-align: center;
-        align-items: center;
-    margin: 50px 20px; }
 
 .reveal .slides .slide24 .slide24__container {
   display: -ms-flexbox;
@@ -293,10 +296,21 @@
     margin: 30px 20px; }
 
 .reveal .slides .subs {
-  font-size: 27px; }
+  font-size: 27px;
+  width: 185px; }
 
 .reveal .slides .thanks {
   margin-top: 160px; }
+
+.reveal .slides .slide26 .slide26__container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center; }
 
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,

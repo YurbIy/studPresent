@@ -27,14 +27,12 @@
                 bottom: 3%;
             }
 
-            .slide__container {
-                display: flex;
-                justify-content: space-between;
-
-                .slide__plans_img {
-                    width: 470px;
-                    height: 376px;
-                }
+            .slide__plans_img {
+                width: 470px;
+                height: 376px;
+            }
+            .slide__future-head {
+                color: #A3C644;
             }
         }
 
@@ -247,17 +245,34 @@
             }
         }
 
-        .slide17 {
-            .slide17__plans_img {
-                width: 512px;
-                height: 484px;
+        .slide16 {
+
+            .slide16__container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+
+                .slide16__plans_img {
+                    width: 512px;
+                    height: 425px;
+                }
             }
+            
+        }
+
+        .slide17 {
 
             .slide17__container {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-around;
+
+                .slide17__plans_img {
+                    width: 512px;
+                    height: 484px;
+                }
             }
             
         }
@@ -310,16 +325,20 @@
 
         .slide23 {
             .slide23__container {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: space-between;
+                // align-items: center;
                 .team-img {
+                    float: left;
                     display: flex;
+                    box-shadow: none;
+                    border: none;
+                    background: none;
                     flex-direction: column;
                     justify-content: space-between;
                     align-items: center;
-                    margin: 50px 20px;
+                    // margin: 50px 20px;
                 }
             }
         }
@@ -358,11 +377,20 @@
 
             .subs {
                 font-size: 27px;
+                width: 185px;
             }
 
             .thanks {
                 margin-top: 160px;
             }
 
+            .slide26 {
+                .slide26__container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
         }
 }
