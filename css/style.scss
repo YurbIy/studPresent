@@ -307,6 +307,62 @@
             width: 470px;
             height: 376px;
         }
-        
-    }
+
+        .slide23 {
+            .slide23__container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .team-img {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 50px 20px;
+                }
+            }
+        }
+
+        .slide24 {
+            .slide24__container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .team-img {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 50px 20px;
+                }
+            }
+        }
+
+            .slide25 {
+                .slide25__container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .team-img {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin: 30px 20px;
+                    }
+                }
+            }
+
+            .subs {
+                font-size: 27px;
+            }
+
+            .thanks {
+                margin-top: 160px;
+            }
+
+        }
 }
