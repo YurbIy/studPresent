@@ -245,34 +245,15 @@
   float: left;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
   box-shadow: none;
   border: none;
   background: none;
   -ms-flex-direction: column;
       flex-direction: column;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center; }
-=======
-  -ms-flex-direction: row;
-      flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-align: center;
       align-items: center; }
-  .reveal .slides .slide23 .slide23__container .team-img {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-align: center;
-        align-items: center;
-    margin: 50px 20px; }
->>>>>>> 965fe15f8bc3b629ff54b8970e5346f7190d8235
 
 .reveal .slides .slide24 .slide24__container {
   display: -ms-flexbox;
@@ -555,7 +536,7 @@ body {
     cursor: pointer;
     color: currentColor;
     transform: scale(0.9999);
-    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
     z-index: 2;
     pointer-events: auto;
     font-size: inherit;
