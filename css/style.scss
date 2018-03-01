@@ -404,7 +404,7 @@
         }
 
             .subs {
-                font-size: 27px;
+                font-size: 24px;
                 width: 185px;
             }
 
@@ -425,6 +425,10 @@
 
             .co-worker, .img_box-shadow {
                 box-shadow: 5px 8px 50px black;
+            }
+            .subs_ma {
+                margin: 0;
+                line-height: 1;
             }
     }
 
