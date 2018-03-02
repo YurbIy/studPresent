@@ -351,26 +351,26 @@
                     flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
-                    margin: 50px 20px;
+                    // margin: 50px 20px;
                 }
             }
         }
 
             .slide25 {
-                 .slide25__container {
-                     display: flex;
-                     flex-direction: row;
-                     justify-content: space-around;
-                     align-items: center;
-                     .team-img {
-                         display: flex;
-                         flex-direction: column;
-                         justify-content: space-around;
-                         align-items: center;
-                         margin: 30px 20px;
-                     }
-                 }
-             }
+                .slide25__container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .team-img {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        //  margin: 30px 20px;
+                    }
+                }
+            }
 
         .slide26 {
             .slide26__container {
@@ -403,6 +403,13 @@
             }
         }
 
+        .slide25__container {
+            .co-worker {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
             .subs {
                 font-size: 24px;
                 width: 185px;
@@ -429,6 +436,11 @@
             .subs_ma {
                 margin: 0;
                 line-height: 1;
+            }
+            .slide__skills-list {
+                font-size: 14px;
+                width: 165px;
+                padding: 0 3px;
             }
     }
 
