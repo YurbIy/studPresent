@@ -8,8 +8,10 @@
 /*********************************************
  * RESET STYLES
  *********************************************/
+.reveal {
+  background-color: white;}
 .reveal .slides section {
-  color: #FFFFFF;
+  color: black;
   width: 100%;
   height: 100%; }
   .reveal .slides section img {
@@ -31,7 +33,8 @@
     width: 470px;
     height: 376px; }
   .reveal .slides section .slide__future-head {
-    color: #A3C644; }
+    color: #A3C644;
+    margin-bottom: 0;    }
 
 .reveal .slides .slide1 {
   width: 100%;
@@ -63,7 +66,8 @@
 
 .reveal .slides .slide6 .slide6__list {
   z-index: 100;
-  position: relative; }
+  position: absolute;
+  left: 40px;}
 
 .reveal .slides .slide6 .slide6__img_customer {
   background: none;
@@ -76,6 +80,9 @@
   top: 10%;
   z-index: 2; }
 
+.reveal .slides .slide8 {
+  background-color: white;
+}
 .reveal .slides .slide8 .slide8__tech_stack {
   background: none;
   box-shadow: none;
@@ -94,31 +101,31 @@
 .reveal .slides .slide8 .slide8__react {
   width: 172px;
   height: 122px;
-  top: 25%;
+  top: 15%;
   left: -3%; }
 
 .reveal .slides .slide8 .slide8__redux {
   width: 93px;
   height: 84px;
-  top: 27%;
+  top: 18%;
   left: 15%; }
 
 .reveal .slides .slide8 .slide8__webpack {
   width: 172px;
   height: 94px;
-  top: 41%;
+  top: 32%;
   left: 5%; }
 
 .reveal .slides .slide8 .slide8__jest {
   width: 170px;
   height: 91px;
-  top: 56%;
+  top: 46%;
   left: 6%; }
 
 .reveal .slides .slide8 .slide8__nodejs {
   width: 180px;
   height: 110px;
-  top: 69%;
+  top: 59%;
   left: 5%; }
 
 .reveal .slides .slide8 .slide8__postgresql {
@@ -126,56 +133,56 @@
   height: 103px;
   width: 141px;
   height: 154px;
-  top: 72%;
+  top: 57%;
   left: 37%; }
 
 .reveal .slides .slide8 .slide8__java {
   width: 156px;
   height: 156px;
-  top: 25%;
-  left: 30%; }
+  top: 13%;
+  left: 34%; }
 
 .reveal .slides .slide8 .slide8__spring {
   width: 175px;
   height: 57px;
-  top: 48%;
-  left: 35%; }
+  top: 35%;
+  left: 37%; }
 
 .reveal .slides .slide8 .slide8__hibernate {
   width: 120px;
   height: 36px;
-  top: 68%;
+  top: 52%;
   left: 39%; }
 
 .reveal .slides .slide8 .slide8__gradle {
   width: 160px;
   height: 55px;
-  top: 58%;
-  left: 36%; }
+  top: 44%;
+  left: 37%; }
 
 .reveal .slides .slide8 .slide8__swagger {
   width: 80px;
   height: 80px;
-  top: 32%;
-  left: 47%; }
+  top: 20%;
+  left: 50%; }
 
 .reveal .slides .slide8 .slide8__gitlab {
   width: 175px;
   height: 175px;
-  top: 30%;
-  left: 63%; }
+  top: 22%;
+  left: 64%; }
 
 .reveal .slides .slide8 .slide8__jenkins {
   width: 100px;
   height: 162px;
-  top: 28%;
-  left: 86%; }
+  top: 23%;
+  left: 83%; }
 
 .reveal .slides .slide8 .slide8__docker {
   width: 219px;
   height: 138px;
-  top: 58%;
-  left: 69%; }
+  top: 48%;
+  left: 68%; }
 
 .reveal .slides .slide16 .slide16__container {
   display: -ms-flexbox;
@@ -263,7 +270,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: flex-start; }
+
   .reveal .slides .slide24 .slide24__container .team-img {
     display: -ms-flexbox;
     display: flex;
@@ -273,6 +281,9 @@
         justify-content: space-around;
     -ms-flex-align: center;
         align-items: center; }
+
+.reveal .slides .slide24 h4, .reveal .slides .slide24 h3 {
+  margin: 0 0 0 0;}
 
 .reveal .slides .slide25 .slide25__container {
   display: -ms-flexbox;
@@ -353,6 +364,15 @@
   font-size: 14px;
   width: 165px;
   padding: 0 3px; }
+
+  .reveal .slides .slide24 .slide__skills-list {
+    font-size: 14px;
+    width: 200px;
+    padding: 0 3px; }
+
+  .reveal h3 {
+
+  }
 
 html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe,
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre,
