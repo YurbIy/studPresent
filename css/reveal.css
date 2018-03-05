@@ -28,7 +28,7 @@
     box-shadow: none;
     position: absolute;
     left: -3%;
-    bottom: 3%; }
+    bottom: 5%; }
   .reveal .slides section .slide__plans_img {
     width: 470px;
     height: 376px; }
@@ -284,12 +284,25 @@
 
 .reveal .slides .slide24 h4,
 .reveal .slides .slide24 h3,
+.reveal .slides .slide18 h3,
+.reveal .slides .slide20 h3,
+.reveal .slides .slide21 h3,
+.reveal .slides .slide21_1 h3,
+.reveal .slides .slide21_2 h3,
 .reveal .slides .slide23 h3,
+.reveal .slides .slide22 h3,
 .reveal .slides .slide23 img {
   margin: 0 0 0 0; }
 
+.reveal .slides .slide23 h4,
+.reveal .slides .slide18 h4,
+.reveal .slides .slide20 h4,
+.reveal .slides .slide21 h4,
+.reveal .slides .slide21_1 h4,
+.reveal .slides .slide21_2 h4,
+.reveal .slides .slide22 h4,
 .reveal .slides .slide23 h4 {
-  margin: 0 0 5px 0;
+  margin: 0 0 15px 0;
 }
 
 .reveal .slides .slide24 p{
@@ -339,7 +352,7 @@
   width: 768px;
   height: 480px; }
 
-.reveal .slides .slide21_1 .slide21_1__plans_img {
+.reveal .slides .slide21_1 .slide21_1__plans_img, .reveal .slides .slide21_2 .slide21_1__plans_img  {
   margin: 0;
   width: 730px;
   height: 456px; }
@@ -362,10 +375,10 @@
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  box-shadow: 5px 8px 50px black; }
+  box-shadow: 5px 5px 25px black; }
 
 .reveal .slides .co-worker, .reveal .slides .img_box-shadow {
-  box-shadow: 5px 8px 50px black; }
+  box-shadow: 5px 5px 25px black; }
 
 .reveal .slides .subs_ma {
   margin: 0;
